@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.venv/
+.ipynb_checkpoints/
+sweetviz_report.html
+report.html
