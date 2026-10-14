@@ -14,13 +14,13 @@ SweetViz itself is used through its public API only and is not modified.
 From GitHub (works in Jupyter, Colab and any terminal):
 
 ```
-pip install git+https://github.com/YOUR-USERNAME/sweetviz-plus.git
+pip install git+https://github.com/sejalllv/sweetviz-plus.git
 ```
 
 In a Colab cell, put an exclamation mark in front:
 
 ```
-!pip install git+https://github.com/YOUR-USERNAME/sweetviz-plus.git
+!pip install git+https://github.com/sejalllv/sweetviz-plus.git
 ```
 
 To also run the Streamlit demo app, download this repository and run, from its folder:
