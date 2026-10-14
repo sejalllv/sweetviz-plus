@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sweetviz-plus"
+version = "0.1.0"
+description = "Extends SweetViz with outlier detection, a dataset quality score, cleaning recommendations, and safe auto-clean."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas",
+    "numpy",
+    "scikit-learn",
+    "sweetviz",
+]
+
+[project.optional-dependencies]
+app = ["streamlit"]
+
+[tool.setuptools]
+packages = ["sweetviz_plus"]
